@@ -12,5 +12,10 @@ $(document).ready(function() {
   $("button#red").click(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
+  ]);
+
+  $("button#blue").click(function() {
+    $("body").removeClass();
+    $("body").addClass("blue-background");
   });
 });
